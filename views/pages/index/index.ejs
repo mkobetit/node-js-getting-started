@@ -1,10 +1,15 @@
 <html>
 	<head>
 		<title>Farah has a job</title>
+		<script>
+		function showPan() {
+			document.getElementById('pan').innerHTML('<h3>Me gusta el pan</h3>');
+		}
+		</script>
 	</head>
 
 	<body>
-		<h1>No me gusta la pasta</h1>
-		<h3>Me gusta el pan</h3>
+		<h1>No me gusta la pasta</h1> <span><button type = 'button' onClick = 'showPan()'>Click</button> </span>
+		<div id = 'pan'> </div>
 	</body>
 </html>
